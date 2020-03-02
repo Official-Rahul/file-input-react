@@ -9,6 +9,7 @@ export class App extends Component {
         <FileInputReact
           button="Submit"
           label="Upload file"
+          hideInput
         />
       </div>
     )

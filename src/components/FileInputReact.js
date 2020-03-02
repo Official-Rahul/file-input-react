@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './FileInputReact.css'
 
 export class FileInputReact extends Component {
     constructor(props) {
@@ -10,11 +11,11 @@ export class FileInputReact extends Component {
     }
     
     render() {
-        const { button, label } = this.props;
+        const { button, label, hideInput } = this.props;
         return (
             <div>
                 {label && <label for="file">{label}</label>}
-                <input id="file" type="file"></input>
+                <input className={hideInput==true?'transparent':''} id="file" type="file"></input>
                 {button && <button>{button}</button>}
             </div>
         )
