@@ -1,4 +1,5 @@
 .transparent {
     opacity: 0;
     position: absolute;
+    width: 0px;
 }
