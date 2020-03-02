@@ -1,13 +1,18 @@
-import React from 'react';
-import './App.css';
-import FileInputReact from './components/FileInputReact';
+import React, { Component } from 'react';
+import './App.css'
+import { FileInputReact } from "./components/FileInputReact";
 
-function App() {
-  return (
-    <div className="App">
-      <FileInputReact/>
-    </div>
-  );
+export class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <FileInputReact
+          button="Submit"
+          label="Upload file"
+        />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
