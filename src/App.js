@@ -3,6 +3,15 @@ import './App.css'
 import { FileInputReact } from "./components/FileInputReact";
 
 export class App extends Component {
+
+  fileChangeHandler=(file)=>{
+    console.log(file);
+  }
+
+  submitHandler=()=>{
+    console.log('submit');
+  }
+
   render() {
     return (
       <div className="App">
@@ -10,6 +19,8 @@ export class App extends Component {
           button="Submit"
           label="Upload file"
           hideInput
+          handleChange={this.fileChangeHandler}
+          handleSubmit={this.submitHandler}
         />
       </div>
     )
