@@ -7,7 +7,7 @@ Below are the simple steps for installing and using File Input React.
 
 ### `Latest version`
 
-1.0.5
+1.0.4
 
 ### `How to install`
 
