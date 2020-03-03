@@ -1,6 +1,6 @@
 {
   "name": "file-input-react",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "file input component for react application",
   "main": "./build/index.js",
   "scripts": {
