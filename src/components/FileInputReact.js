@@ -11,7 +11,7 @@ export class FileInputReact extends Component {
         }
     }
 
-    handleFileChange=(event)=>{
+    handleFileChange(event){
         if(event.target.files[0]){
             let file=event.target.files[0];
             if(file){
