@@ -1,12 +1,17 @@
 {
   "name": "file-input-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "file input component for react application",
   "main": "./build/index.js",
   "scripts": {
     "build": "webpack"
   },
   "author": "Official-Rahul",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Official-Rahul/file-input-react"
+  },
+  "homepage": "https://github.com/Official-Rahul/file-input-react",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.8.6",
